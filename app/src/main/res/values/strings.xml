@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GitViewer</string>
+
+    <string name="permission_header">Запрос доступа</string>
+    <string name="permission_text">Для полноценной работы необходимы следующие разрешения</string>
+    <string name="cancel">Отмена</string>
+</resources>

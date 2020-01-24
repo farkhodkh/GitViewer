@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DBF7F0</color>
+    <color name="colorPrimaryDark">#383838</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="repoLabelColorWhite">#FAF5F5</color>
+    <color name="repoLabelColorGrey">#7CAAA8A8</color>
+    <color name="repoBackgroundColorDark">#B40E0E0E</color>
+</resources>

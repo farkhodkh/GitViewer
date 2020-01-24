@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@color/repoBackgroundColorDark"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtWDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:gravity="fill_horizontal|left"
+            android:text="Date"
+            android:textColor="@color/repoLabelColorGrey"
+            android:textColorHint="@color/repoLabelColorGrey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txtWAuthorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="0"
+            android:gravity="fill_horizontal|right"
+            android:text="Author"
+            android:textColor="@color/repoLabelColorGrey"
+            android:textColorHint="@color/repoLabelColorGrey"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtWRepoName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dp"
+            android:layout_weight="1"
+            android:gravity="fill_horizontal|left"
+            android:minLines="0"
+            android:text="Repo name"
+            android:textColor="@color/repoLabelColorWhite"
+            android:textColorHint="@color/repoLabelColorWhite"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgVAuthor"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_weight="0"
+            android:gravity="fill_horizontal|right"
+            app:srcCompat="@drawable/ic_account_box_black_24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/txtWWatchers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="2"
+            android:gravity="fill_horizontal|right"
+            android:text="Watchers"
+            android:textColor="@color/repoLabelColorGrey"
+            android:textColorHint="@color/repoLabelColorGrey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txtWLicense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="License"
+            android:textColor="@color/repoLabelColorGrey"
+            android:textColorHint="@color/repoLabelColorGrey"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txtWLangDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="0"
+            android:gravity="fill_horizontal|right"
+            android:text="Lang"
+            android:textColor="@color/repoLabelColorGrey"
+            android:textColorHint="@color/repoLabelColorGrey"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+</LinearLayout>
